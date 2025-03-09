@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#ecf0f1" stroke="#2c3e50" stroke-width="5"/>
+  
+  <!-- Cell membrane -->
+  <circle cx="100" cy="100" r="75" fill="#3498db" fill-opacity="0.2" stroke="#2c3e50" stroke-width="2.5" stroke-dasharray="4 2"/>
+  
+  <!-- Nucleus -->
+  <circle cx="100" cy="100" r="30" fill="#2c3e50">
+    <animate attributeName="r" values="28;32;28" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Organelles -->
+  <ellipse cx="145" cy="85" rx="15" ry="10" fill="#3498db" transform="rotate(30 145 85)"/>
+  <ellipse cx="60" cy="130" rx="12" ry="8" fill="#3498db" transform="rotate(-15 60 130)"/>
+  <ellipse cx="120" cy="140" rx="14" ry="9" fill="#3498db" transform="rotate(45 120 140)"/>
+  <circle cx="75" cy="70" r="8" fill="#3498db"/>
+  
+  <!-- Connecting structures -->
+  <path d="M100,100 L145,85" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  <path d="M100,100 L60,130" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  <path d="M100,100 L120,140" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  <path d="M100,100 L75,70" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  
+  <!-- Cell wall highlight (for light effect) -->
+  <path d="M100,25 A75,75 0 0,1 175,100" stroke="#ffffff" stroke-width="4" fill="none" stroke-opacity="0.7"/>
+  
+  <!-- Cell name - removed as it's handled in the HTML -->
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="90" fill="#ecf0f1" stroke="#2c3e50" stroke-width="4"/>
+  
+  <!-- Cell cytoplasm -->
+  <circle cx="100" cy="100" r="80" fill="#3498db" fill-opacity="0.15"/>
+  
+  <!-- Cell membrane -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#2c3e50" stroke-width="2" stroke-dasharray="3 2"/>
+  
+  <!-- Nucleus -->
+  <circle cx="110" cy="90" r="25" fill="#2c3e50"/>
+  <circle cx="105" cy="85" r="5" fill="#ecf0f1" fill-opacity="0.6"/>
+  
+  <!-- Mitochondria -->
+  <ellipse cx="145" cy="120" rx="15" ry="8" fill="#e74c3c" transform="rotate(30 145 120)"/>
+  <path d="M135,116 Q145,112 155,116 Q145,120 135,116" stroke="#2c3e50" stroke-width="1" fill="none"/>
+  <path d="M135,120 Q145,116 155,120 Q145,124 135,120" stroke="#2c3e50" stroke-width="1" fill="none"/>
+  <path d="M135,124 Q145,120 155,124 Q145,128 135,124" stroke="#2c3e50" stroke-width="1" fill="none"/>
+  
+  <!-- Endoplasmic Reticulum -->
+  <path d="M85,120 Q95,130 110,125 Q125,120 135,135" stroke="#3498db" stroke-width="3" fill="none"/>
+  <path d="M80,130 Q90,140 105,135 Q120,130 130,145" stroke="#3498db" stroke-width="3" fill="none"/>
+  
+  <!-- Golgi Apparatus -->
+  <path d="M50,90 Q70,75 90,90" stroke="#9b59b6" stroke-width="4" fill="none"/>
+  <path d="M52,95 Q72,80 92,95" stroke="#9b59b6" stroke-width="4" fill="none"/>
+  <path d="M54,100 Q74,85 94,100" stroke="#9b59b6" stroke-width="4" fill="none"/>
+  
+  <!-- Lysosome -->
+  <circle cx="65" cy="60" r="8" fill="#e67e22"/>
+  
+  <!-- Cytoskeleton elements -->
+  <line x1="30" y1="140" x2="60" y2="110" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3 2"/>
+  <line x1="160" y1="60" x2="130" y2="80" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3 2"/>
+  <line x1="50" y1="40" x2="80" y2="70" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3 2"/>
+</svg>
